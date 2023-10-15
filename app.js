@@ -9,7 +9,7 @@ const md5 = require('md5');
 const app = express();
 
 // console.log(process.env.API_KEY);
-console.log(md5("567890"));
+// console.log(md5("567890"));
 
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
