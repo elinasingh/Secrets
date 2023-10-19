@@ -14,3 +14,13 @@ body {
   color: #fff;
   background-color: #000;
 }
+
+.col-sm-4 .card-body {
+  background-color: #df867a;
+  cursor: pointer;
+}
+
+.col-sm-4 .card-body:hover{
+  background-color: #d65240;
+  color: #fff;
+}
